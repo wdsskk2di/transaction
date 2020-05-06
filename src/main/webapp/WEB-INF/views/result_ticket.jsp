@@ -14,7 +14,7 @@
 			<tr>
 				<th>${re.key }</th>
 				<c:forEach var="arr" items="${re.value }">
-					<td>${arr.id }: ${arr.ticketnum }</td>
+				<td>${arr.id }: ${arr.ticketnum }</td>
 				</c:forEach>
 			</tr>
 		</c:forEach>
